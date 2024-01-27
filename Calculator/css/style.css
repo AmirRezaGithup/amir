@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    background-color: #1b1b1b;
+}
+.bodycalcu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(29, 29, 29);
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+.maincalcu{
+    padding: 5px;
+}
+
+.maincalcu p{
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.maincalcu input{
+    height: 115px;
+    width: 100%;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    background: rgb(29, 29, 29);
+    color: #fff;
+    text-align: right;
+    outline: none;
+    font-size: 1.5em;
+}
+.maincalcu button{
+    padding: 10px;
+    margin: 3px 1px 3px 1px; 
+    width: 67px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(48, 47, 47, 0.788);
+    color: #fff;
+    font-size: 19px;
+}
+.bodycalcu .number{
+    background: rgba(80, 80, 80, 0.514);
+}
+
+.open{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.open button{
+    padding: 35px 60px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-family: cursive;
+    font-size: 1.5em;
+    font-weight: 700;
+    background: linear-gradient(90deg , #00addd , #0088a3 ,#00addd);
+    box-shadow: 0 0 35px 5px #00addd;
+    transition: all linear 1s;
+}
+
+.open button:hover {
+    padding: 40px 90px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+}
