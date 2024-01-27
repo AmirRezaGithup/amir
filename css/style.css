@@ -19,17 +19,19 @@ body{
 }
 
 .maincalcu{
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 .maincalcu p{
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: #fff;
+    padding: 5px;
+    width: 150px;
 }
 
 .maincalcu input{
     height: 115px;
-    width: 90%;
+    width: 280px;
     border: none;
     border-radius: 10px 10px 0px 0px;
     background: rgb(29, 29, 29);
